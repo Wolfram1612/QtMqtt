@@ -1,0 +1,12 @@
+name: InstallQt
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: jurplel/install-qt-action@v3
+      
+      - run: qmake /test/MQTTtest.pro
+      - run: make

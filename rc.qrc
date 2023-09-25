@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>gui.qml</file>
+        <file>MyLabel.qml</file>
+        <file>MyTextInput.qml</file>
+        <file>MyRowLayout.qml</file>
+    </qresource>
+</RCC>
